@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    background-color:lightblue;
+	width: 960px;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1px solid black;
+}
+
+.highlight { 
+    color: white;
+    background-color: blue;
+    width: 75%;
+}
+
+section, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;	
+}
+
+section {
+	width: 580px;
+	border-right: 2px solid purple;
+    padding-right: 20px;
+}
+
+aside {
+	width: 340px;
+	float: right;
+	padding-left: 20px;
+}
+
+aside h1 {
+	font-size: 125%;
+	padding-bottom: .5em;
+}
+aside h2 {
+	font-size: 100%;
+	color: green;
+	padding-bottom: .5em;
+}
+aside p {
+	margin-bottom: .5em;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
